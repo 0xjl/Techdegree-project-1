@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 30%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -166,6 +166,22 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+/* Style for resume page */
+.experiences h1 {
+  padding: 25px;
+  font-size: 3em;
+}
+
+.experiences h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.experiences em {
+  font-size: 0.95em;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
